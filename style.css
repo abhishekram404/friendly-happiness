@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.background {
+  height: 600vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#ffffff));
+  background: linear-gradient(#000000, #ffffff);
+}
+
+.background .page-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -50%;
+}
+
+.background .page-1 h2 {
+  font-size: 4rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#fc466b), to(#3f5efb));
+  background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-animation: aqua 3s infinite;
+          animation: aqua 3s infinite;
+  background-size: 300%;
+}
+
+@-webkit-keyframes aqua {
+  from {
+    background-position-x: 0%;
+  }
+  50% {
+    background-position-x: 100%;
+  }
+  to {
+    background-position-x: 0%;
+  }
+}
+
+@keyframes aqua {
+  from {
+    background-position-x: 0%;
+  }
+  50% {
+    background-position-x: 100%;
+  }
+  to {
+    background-position-x: 0%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
